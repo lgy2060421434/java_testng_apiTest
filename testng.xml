@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="开门柜接口测试">
+    <test thread-count="5" name="后台端登录获取token">
+        <classes>
+            <class name="aout_li_case.HT_Login"></class>
+        </classes>
+    </test> <!-- Test -->
+
+    <test thread-count="5" name="后台获取订单">
+        <classes>
+            <class name="aout_li_case.HT_Order_Selecte"></class>
+        </classes>
+    </test> <!-- Test -->
+
+    <!--    <test thread-count="5" name="order_list">-->
+    <!--        <classes>-->
+    <!--            <class name="aout_li_case.test3"></class>-->
+    <!--        </classes>-->
+    <!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+    <listeners>
+        <!-- 添加ExtentRport监听 -->
+        <listener class-name="aout_li5.extend.demo.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite> <!-- Suite -->

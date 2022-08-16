@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="14" passed="13">
+  <reporter-output>
+    <line>
+      <![CDATA[判断响应的数据状态是否是200]]>
+    </line>
+    <line>
+      <![CDATA[判断响应的token是否有]]>
+    </line>
+    <line>
+      <![CDATA[判断响应的数据状态是否是200]]>
+    </line>
+  </reporter-output>
+  <suite name="总后台测试" duration-ms="8650" started-at="2022-03-21T02:05:26Z" finished-at="2022-03-21T02:05:35Z">
+    <groups>
+    </groups>
+    <test name="phone/login_test" duration-ms="5653" started-at="2022-03-21T02:05:26Z" finished-at="2022-03-21T02:05:32Z">
+      <class name="aout_li_case.test5">
+        <test-method status="FAIL" signature="run(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aout_li_case.test5@7b49cea0]" name="run" duration-ms="1563" started-at="2022-03-21T02:05:26Z" data-provider="datas" finished-at="2022-03-21T02:05:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"username":"","password":"${toBeLoginPassWorde}","code":"123456"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"code":422,"message":"validation_error","data":{"username":["The username field is required."]}}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[返回的不是200状态 expected [203] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 返回的不是200状态 expected [203] but found [200]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at aout_li_Assert.asserCase1.assertEquals2(asserCase1.java:19)
+at aout_li_requsetGetAndPost.BaseProcessor.run(BaseProcessor.java:91)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[判断响应的数据状态是否是200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aout_li_case.test5@7b49cea0]" name="run" duration-ms="191" started-at="2022-03-21T02:05:28Z" data-provider="datas" finished-at="2022-03-21T02:05:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"username":"${toBeLoginUsername}","password":"","code":"${toBeLoginCode}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"code":422,"message":"validation_error","data":{"password":["The password field is required."]}}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aout_li_case.test5@7b49cea0]" name="run" duration-ms="2216" started-at="2022-03-21T02:05:28Z" data-provider="datas" finished-at="2022-03-21T02:05:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"username":"${toBeLoginUsername}","password":"${toBeLoginPassWorde}","code":""}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"prompt":0,"url_type":"","url":"","code":0,"message":"success","data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjUzOTY1NGZkYWI3ODJjM2MyM2YxODg5ZTNhZGQwNzNmZWI5OTBlMjc4ZDlhYmU2NmU4NmU0NmNlNWNkMDQ4NTE4NTBjMzY4ODcyMDY2MWNlIn0.eyJhdWQiOiIzIiwianRpIjoiNTM5NjU0ZmRhYjc4MmMzYzIzZjE4ODllM2FkZDA3M2ZlYjk5MGUyNzhkOWFiZTY2ZTg2ZTQ2Y2U1Y2QwNDg1MTg1MGMzNjg4NzIwNjYxY2UiLCJpYXQiOjE2Mjk4NjI4MTUsIm5iZiI6MTYyOTg2MjgxNSwiZXhwIjoxNjYxMzk4ODE1LCJzdWIiOiIxIiwic2NvcGVzIjpbXSwiaXNzIjoic3RhZmYifQ.tW1cWNLum5PbwBV469x5NguSvfrkAFSsYYuXOEw_q-0AXSBpUCJkgNPsVCK9Q7wI2pW3rrs6KLF87-VhCEOzvEwFbZKJot6eHGfnjlUH53-fh-JJxn30rdDC4OdMLSmU8ffa91ZUBEt4AdK8cVHoNHSz-xA1nIiBcTbZ3yddnEpL1OlHYoFXSYGJkU0i_GTjsJpf2sLo5aa6mBslChMowbbSzbWkCEJuMNc1O2CO0rFcIXV_fTcB95Ch122z5w7_Q5McApha-7Q0wky9COOyjMBSDcI86EXsxpAYjKGewQfjHfrggeAywVjVEHjU2aavErnLgQvOYnqM2Mr4De8ULf64ufoa90V7Jg89Nz3PBlwQyoQiOiRwbA8mpj5z49aVDQz1Ku2cFYs91HmHpBjaOypJuZ9VO-uDbICbHRSqFTOejyotBFvfH9-xRd3_W9FNZxMvQ-VDyPNgWm08tdOkv5EzFm57DN8WDd6Gl6MsaFufstybUkiE2cxjowXlKi1tE8wpvwd-a-pyxOd3yPgUbpB0ttl_RpS03UVSbnH1a-Hy_x55RtqgyTJZY3f_9aBJU21d76-rnXxuOzAqjj-WqZlBqV4NgkaWGFNx8h8xzjODiLzowVn-buxQ0s_37AxtK_DVQ371YJh8K1SmRh81XSQ3hCq-8VEOlzwQyeYRT4o","token_type":"Bearer"}}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[{"no":"1","sql":"SELECT  COUNT(mobile) FROM staff_users WHERE mobile='11111111111'"},{"no":"2","sql":"SELECT  COUNT(username) FROM staff_users WHERE mobile='11111111111'"}]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[[{"no":"1","sql":"SELECT  COUNT(mobile) FROM staff_users WHERE mobile='11111111111'"},{"no":"2","sql":"SELECT  COUNT(username) FROM staff_users WHERE mobile='11111111111'"}]]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aout_li_case.test5@7b49cea0]" name="run" duration-ms="170" started-at="2022-03-21T02:05:30Z" data-provider="datas" finished-at="2022-03-21T02:05:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"username":"123","password":"${toBeLoginPassWorde}","code":"${toBeLoginCode}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"message":"\u8d26\u53f7\u4e0d\u5b58\u5728","data":[],"code":190003,"prompt":0,"url_type":"","url":""}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aout_li_case.test5@7b49cea0]" name="run" duration-ms="210" started-at="2022-03-21T02:05:31Z" data-provider="datas" finished-at="2022-03-21T02:05:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"username":"${toBeLoginUsername}","password":"12","code":"${toBeLoginCode}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"message":"\u5bc6\u7801\u9519\u8bef","data":[],"code":190000,"prompt":0,"url_type":"","url":""}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aout_li_case.test5@7b49cea0]" name="run" duration-ms="856" started-at="2022-03-21T02:05:31Z" data-provider="datas" finished-at="2022-03-21T02:05:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"username":"${toBeLoginUsername}","password":"${toBeLoginPassWorde}","code":"${toBeLoginCode}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"prompt":0,"url_type":"","url":"","code":0,"message":"success","data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjA2NmY0N2MyNGI2MWQ4YWY0OTkzOTM1Njg4MWY3MDRjMDMxNjhlYTA1YjhhOTIwOGMxYTU0ZmY1Yzg2MGM1MDU4NDVmNjZlMGFmYTFkMWI2In0.eyJhdWQiOiIzIiwianRpIjoiMDY2ZjQ3YzI0YjYxZDhhZjQ5OTM5MzU2ODgxZjcwNGMwMzE2OGVhMDViOGE5MjA4YzFhNTRmZjVjODYwYzUwNTg0NWY2NmUwYWZhMWQxYjYiLCJpYXQiOjE2Mjk4NjI4MTUsIm5iZiI6MTYyOTg2MjgxNSwiZXhwIjoxNjYxMzk4ODE1LCJzdWIiOiIxIiwic2NvcGVzIjpbXSwiaXNzIjoic3RhZmYifQ.pI9n2fhFZhmjSi3-3dd1KthUSSSzTmcVyvJOCmrHoHDlcCKP3vM1MLIXVF2omcAtYd75YnYDBA3s9lcUW_eST7kv0CmVag4yVFQEncmng_OYgV-3NcU_lF7ipZY474-XvlYpI5OgHH2gzqce-_cioZ2Ty8-4ZJUq2gOko9mtB4ypNuE2iwfOrs7ycTUl0wBIs1R8XK7kCCBbxzYsrKpcq8q3sIcmHQZbBh_vXxMDz1vp7eKyEyr2FelqxfASjK0stC162Ed7fPemPDecX3PO9AP91ATdFDPVxlt4uw-1x7ao75R7iyk4pWRnlCiRAoRAEj7vflUk-lcGLIgTVI6xx_3RiXellYufrKWmyYkv4pNjo0Vst-1mXUvXKVaIZzKfoBTv6htBhECz77nxc-yFu7kH1AW6OdWfUAlARbkSCpHs-n_d4GkAcWbw64sXuvTXx4e_rNa4-9A0pmCIDH84y4ht_fBuvvKAASSzmavVbufLjl4abd_F8iBreKRv83snlS1OU_8E4PT7oN9cRCD624ZrrL3lol__hcF-nMuUbShPXzp2wCsWr92YbcGs69TXqRy5rew3FpGiqzXIfY7KMXQW9dOgKLx6pCjXuL6Nl3NqpjFBBbt3joJMsCnotPv421UKBJUCDiAghxyNk3NDBNjUdlp7TVSwOYxVv0SuVTc","token_type":"Bearer"}}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[判断响应的token是否有]]>
+            </line>
+            <line>
+              <![CDATA[判断响应的数据状态是否是200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run -->
+      </class> <!-- aout_li_case.test5 -->
+    </test> <!-- phone/login_test -->
+    <test name="staff/login_test" duration-ms="2692" started-at="2022-03-21T02:05:32Z" finished-at="2022-03-21T02:05:34Z">
+      <class name="aout_li_case.test">
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aout_li_case.test@68bbe345]" name="run" duration-ms="199" started-at="2022-03-21T02:05:32Z" data-provider="datas" finished-at="2022-03-21T02:05:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"code":"","phone":"18774671339","device_id":"94ef868a9c71da4f"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aout_li_case.test@68bbe345]" name="run" duration-ms="135" started-at="2022-03-21T02:05:32Z" data-provider="datas" finished-at="2022-03-21T02:05:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"code":"123456","phone":"","device_id":"94ef868a9c71da4f"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aout_li_case.test@68bbe345]" name="run" duration-ms="160" started-at="2022-03-21T02:05:32Z" data-provider="datas" finished-at="2022-03-21T02:05:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"code":"","phone":"18774671339","device_id":""}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aout_li_case.test@68bbe345]" name="run" duration-ms="299" started-at="2022-03-21T02:05:32Z" data-provider="datas" finished-at="2022-03-21T02:05:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"code":"12","phone":"18774671339","device_id":"94ef868a9c71da4f"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aout_li_case.test@68bbe345]" name="run" duration-ms="301" started-at="2022-03-21T02:05:32Z" data-provider="datas" finished-at="2022-03-21T02:05:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"code":"123456","phone":"${toNamble}","device_id":"94ef868a9c71da4f"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aout_li_case.test@68bbe345]" name="run" duration-ms="1305" started-at="2022-03-21T02:05:33Z" data-provider="datas" finished-at="2022-03-21T02:05:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"code":"123456","phone":"18774671339","device_id":"94ef868a9c71da4p"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aout_li_case.test@68bbe345]" name="run" duration-ms="288" started-at="2022-03-21T02:05:34Z" data-provider="datas" finished-at="2022-03-21T02:05:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"code":"123456","phone":"18774671339","device_id":"94ef868a9c71da4p"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[$.data.token]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[$.data.token,$.code]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+      </class> <!-- aout_li_case.test -->
+    </test> <!-- staff/login_test -->
+    <test name="order_list" duration-ms="287" started-at="2022-03-21T02:05:34Z" finished-at="2022-03-21T02:05:35Z">
+      <class name="aout_li_case.test6">
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aout_li_case.test6@5e853265]" name="run" duration-ms="287" started-at="2022-03-21T02:05:34Z" data-provider="datas" finished-at="2022-03-21T02:05:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"page": 1,"size": 10,"va":$.code,"ddd":"$.data.token"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[token]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="batchWriteBackDates()[pri:0, instance:aout_li_case.test6@5e853265]" name="batchWriteBackDates" is-config="true" duration-ms="21" started-at="2022-03-21T02:05:35Z" finished-at="2022-03-21T02:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- batchWriteBackDates -->
+      </class> <!-- aout_li_case.test6 -->
+    </test> <!-- order_list -->
+  </suite> <!-- 总后台测试 -->
+</testng-results>

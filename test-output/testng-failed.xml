@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [总后台测试]">
+  <listeners>
+    <listener class-name="aout_li5.extend.demo.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test thread-count="5" name="phone/login_test(failed)">
+    <classes>
+      <class name="aout_li_case.test5">
+        <methods>
+          <include name="batchWriteBackDates"/>
+          <include name="run" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- aout_li_case.test5 -->
+    </classes>
+  </test> <!-- phone/login_test(failed) -->
+</suite> <!-- Failed suite [总后台测试] -->

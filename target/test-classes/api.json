@@ -1,0 +1,121 @@
+[
+  {
+    "description":"这是我们的第一个mock例子",
+    "request":{
+      "uri":"/demo",
+      "method":"post",
+      "json":{
+        "name":"huhanssan",
+        "age":"18"
+      }
+    },
+    "response":{
+      "json": {
+        "success": true,
+        "message": "操作成功！",
+        "code": 200,
+        "result": {
+          "records": [
+            {
+              "sourceId": null,
+              "isRecommend": 0,
+              "createUserId": "1290619444741066753",
+              "applyCompanyNum": null,
+              "applyCompanyCount": 0,
+              "jobFairDeparts": [
+                {
+                  "displayBoothCount": 0,
+                  "departId": "2297b1605101466aba34b91e81a76960",
+                  "departName": "省直分团"
+                },
+                {
+                  "displayBoothCount": 0,
+                  "departId": "6e54d06c79dc432fa97fc27bddc9ade8",
+                  "departName": "杭州分团"
+                }
+              ],
+              "jobFairName": "测试001",
+              "jobFairCity": "省本级",
+              "province": "山西省",
+              "jobAcceptCount": 0,
+              "fairDataScope": null,
+              "id": 794,
+              "billUrl": null,
+              "dapinUrl": "http://test.zjrc.com:8085/rencai_2/index.html#/home/测试001",
+              "lat": 30.300385,
+              "departName": "浙江省人才市场",
+              "jobFairApplyId": null,
+              "lng": 120.316439,
+              "signPersonCount": 0,
+              "provinceId": null,
+              "labels": "测试,测试2,测试3",
+              "jobFairRegion": "省本级",
+              "fairEndTime": "2022-03-30 23:59:59",
+              "applyUncheckCount": 0,
+              "isTop": 999,
+              "displayBoothCount": 1,
+              "resumeHandlePercent": 0,
+              "recommendResumeCount": 0,
+              "applyStationNum": null,
+              "resumeHandleCount": 0,
+              "region": "矿区",
+              "companyRevise": 0,
+              "applyStatus": 1,
+              "signStartTime": "2022-03-14 00:00:00",
+              "applyEndTime": "2022-03-31 23:59:59",
+              "jobFairLabel": null,
+              "city": "阳泉市",
+              "cityCode": "140300",
+              "signStatus": 1,
+              "remark": null,
+              "schoolIcon": null,
+              "applyStationCount": 0,
+              "content": "测试测试测试",
+              "applyStartTime": "2022-03-14 00:00:00",
+              "fairNature": "综合性招聘会",
+              "regionCode": "140303",
+              "applyUserNum": null,
+              "isDeleted": 0,
+              "updateBy": "浙江人才市场",
+              "orgCode": "A51A50",
+              "viewNumberCount": 0,
+              "fairBeginTime": "2022-03-14 00:00:00",
+              "popularity": 1,
+              "sms": null,
+              "departId": "2297b1605101466aba34b91e81a76960",
+              "signEndTime": "2022-03-31 23:59:59",
+              "sendPeopleCount": null,
+              "holdType": 1,
+              "viewCount": null,
+              "schoolName": null,
+              "address": "测试地址",
+              "openStatus": 0,
+              "surveyUrl": null,
+              "fairLogo": "https://rcwoss.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/[object Object]/314f216b-0e64-42e5-a0ee-9d099dcb77ef_1647226293867.jpg",
+              "provinceCode": "140000",
+              "updateTime": "2022-03-14 11:19:08",
+              "sendCount": null,
+              "fairType": 2,
+              "createBy": "浙江人才市场",
+              "fairStatus": 1,
+              "companyApplyNumNoCheck": null,
+              "createTime": "2022-03-14 11:19:08",
+              "organizer": "省人社市场",
+              "investigation": 0,
+              "extraJson": null
+            }
+          ],
+          "total": 1,
+          "size": 10,
+          "current": 1,
+          "orders": [],
+          "optimizeCountSql": true,
+          "hitCount": false,
+          "searchCount": true,
+          "pages": 1
+        },
+        "timestamp": 1647240481622
+      }
+    }
+  }
+]
